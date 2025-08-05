@@ -34,7 +34,7 @@ This project evaluates that claim on the MNIST dataset using one-epoch training,
 
 Compares model performance with increasing hidden dimension.
 
-![Hidden Dim Sweep](./data/lightning_hidden_dim_sweep.png)
+![Hidden Dim Sweep](./lightning_hidden_dim_sweep.png)
 
 ---
 
@@ -48,15 +48,15 @@ For each `k ∈ {2, 4, 8}`, run `k` random hyperparameter trials and plot best v
 
 **k = 2**
 
-![Accuracy vs k=2](./data/lightning_accuracy_vs_k_2.png)
+![Accuracy vs k=2](./lightning_accuracy_vs_k_2.png)
 
 **k = 4**
 
-![Accuracy vs k=4](./data/lightning_accuracy_vs_k_4.png)
+![Accuracy vs k=4](./lightning_accuracy_vs_k_4.png)
 
 **k = 8**
 
-![Accuracy vs k=8](./data/lightning_accuracy_vs_k_8.png)
+![Accuracy vs k=8](./lightning_accuracy_vs_k_8.png)
 
 ---
 
@@ -66,15 +66,15 @@ Bootstrapped 95% confidence intervals for best validation accuracies (per model 
 
 **k = 2**
 
-![Bootstrap CI k=2](./data/lightning_bootstrap_ci_k2.png)
+![Bootstrap CI k=2](./lightning_bootstrap_ci_k2.png)
 
 **k = 4**
 
-![Bootstrap CI k=4](./data/lightning_bootstrap_ci_k4.png)
+![Bootstrap CI k=4](./lightning_bootstrap_ci_k4.png)
 
 **k = 8**
 
-![Bootstrap CI k=8](./data/lightning_bootstrap_ci_k8.png)
+![Bootstrap CI k=8](./lightning_bootstrap_ci_k8.png)
 
 ---
 
