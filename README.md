@@ -1,4 +1,4 @@
-# 🧠 GeGLU vs ReLU on MNIST (with PyTorch Lightning)
+<picture><source media="(prefers-color-scheme: dark)" srcset=".github/banner-dark.svg"><img src=".github/banner-light.svg" width="100%" alt="🧠 GeGLU vs ReLU on MNIST (with PyTorch Lightning)"></picture>
 
 This experiment compares **Feedforward Neural Networks (FFNs)** with different activation types — **ReLU** and **GeGLU** — using the MNIST digit classification dataset. It explores their performance across different hidden dimensions, random hyperparameter trials, and includes statistical bootstrapping to compute confidence intervals.
 
